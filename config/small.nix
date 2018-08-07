@@ -10,5 +10,6 @@
     ./nix
     ./system
     ./apps/sysadmin.nix
+    ./apps/emacs.nix
   ];
 }

@@ -1,7 +1,9 @@
 { config, pkgs, ...}:
 
 {
+
   users.mutableUsers = false;
+
   users.extraUsers."david" = {
       name = "david";
       description = "David Janssen";

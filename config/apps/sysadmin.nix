@@ -14,9 +14,11 @@
     gnumake
     gnupg
     htop
+    keychain
     pass
     pv
     python
+    psmisc
     mkpasswd
     stow
     tree
@@ -31,4 +33,7 @@
     unzip
     zip
   ];
+
+  programs.ssh.startAgent = true;
+
 }

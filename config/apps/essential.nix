@@ -15,11 +15,6 @@
   };
 
   services = {
-    # Have emacs running as a daemon in the background
-    emacs = {
-      enable = true;
-      defaultEditor = true;
-    };
 
     # Keep a transmission daemon running
     transmission = {

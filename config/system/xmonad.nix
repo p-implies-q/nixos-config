@@ -26,6 +26,7 @@
     dunst
     termite
 
+    haskellPackages.taffybar
     haskellPackages.xmobar
     haskellPackages.yeganesh
   ];
