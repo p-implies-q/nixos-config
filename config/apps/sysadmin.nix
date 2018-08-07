@@ -7,6 +7,7 @@
     # Terminal utilities
     autoconf
     automake
+    bfg-repo-cleaner
     binutils
     file
     gcc
