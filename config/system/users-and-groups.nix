@@ -27,6 +27,7 @@
 
  users.extraGroups.nixconf.gid = 1000;
 
- users.defaultUserShell = "/run/current-system/sw/bin/fish";
+ # users.defaultUserShell = "/run/current-system/sw/bin/fish";
+ users.defaultUserShell = pkgs.bash;
 
 }

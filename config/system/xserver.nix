@@ -25,6 +25,7 @@ in
   # Install some basic xorg utilities
   environment.systemPackages = with pkgs; [
     evtest
+    gksu
     xorg.libXScrnSaver
     xdotool
     xorg.xbacklight

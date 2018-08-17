@@ -8,12 +8,14 @@
 
     ./config/apps/steam.nix
 
+    ./config/dev/haskell.nix
     ./config/dev/keyboard.nix
     ./config/dev/python.nix
 
     ./config/services/syncthing.nix
     ./config/services/offlineimap.nix
     ./config/services/docker.nix
+    # ./config/services/redshift.nix
 
     ./config/system/pili-support.nix
 
@@ -38,7 +40,7 @@
   networking.firewall.allowedUDPPorts = [ 2049 111 4000 4001 ];
 
   # Select the Linux version
-  boot.kernelPackages = pkgs.linuxPackages;
+  boot.kernelPackages = pkgs.linuxPackages_latest;
 
   # Set the hostname
   networking.hostName = "herbert";

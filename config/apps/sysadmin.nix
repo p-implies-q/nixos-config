@@ -35,6 +35,4 @@
     zip
   ];
 
-  programs.ssh.startAgent = true;
-
 }

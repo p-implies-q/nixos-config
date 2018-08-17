@@ -12,8 +12,8 @@ in
 {
 
   environment.systemPackages = [
-    liblapack
-    openblas
+    # liblapack
+    # openblas
     python-and-env
   ];
 }

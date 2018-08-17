@@ -20,10 +20,13 @@
     default = "xmonad";
   };
 
+  services.compton.enable = true;
+
   # Install extra packages that my xmonad environment depends on
   environment.systemPackages = with pkgs; [
     dmenu
     dunst
+    libnotify
     termite
 
     haskellPackages.taffybar

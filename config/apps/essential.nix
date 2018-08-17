@@ -41,8 +41,10 @@
     imagemagick
     pavucontrol
     termite
+    tmux
     transmission
     vlc
     zathura
+
   ];
 }
