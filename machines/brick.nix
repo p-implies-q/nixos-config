@@ -9,22 +9,19 @@
 
     ../config/services/redshift.nix
     ../config/services/docker.nix
-    
+    ../config/services/syncthing.nix  
+
     ../config/apps/snes.nix
     ../config/apps/office.nix
-    # ../config/dev/jekyll.nix
-    # ../config/dev/haskell.nix
+   
     ../config/dev/keyboard.nix
     ../config/dev/python.nix
-    # ../config/dev/purescript.nix
-
-    # ../config/apps/factorio.nix
-    # ../config/apps/steam.nix
   ];
 
   # Select the Linux version
   boot.kernelPackages = pkgs.linuxPackages;
-
+  
+  system.stateVersion = "18.03";
 
   # Set the hostname
   networking.hostName = "brick";
