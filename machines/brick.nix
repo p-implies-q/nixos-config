@@ -5,15 +5,17 @@
 {
   imports = [
     ../config/medium.nix
+
     ../config/system/laptop.nix
 
-    ../config/services/redshift.nix
     ../config/services/docker.nix
+    ../config/services/redshift.nix
     ../config/services/syncthing.nix  
+    ../config/services/virtualbox.nix
 
-    ../config/apps/snes.nix
     ../config/apps/office.nix
-   
+    ../config/apps/snes.nix
+
     ../config/dev/keyboard.nix
     ../config/dev/python.nix
   ];
