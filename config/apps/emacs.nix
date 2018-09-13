@@ -17,6 +17,8 @@
     aspellDicts.es
     aspellDicts.nl
     mu
+    msmtp
+    offlineimap
     silver-searcher
   ];
 }

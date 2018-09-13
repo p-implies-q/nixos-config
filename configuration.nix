@@ -7,6 +7,7 @@
     ./config/medium.nix
 
     ./config/apps/steam.nix
+    ./config/apps/ksp.nix
 
     ./config/dev/haskell.nix
     ./config/dev/keyboard.nix
@@ -15,7 +16,7 @@
     ./config/services/syncthing.nix
     ./config/services/offlineimap.nix
     ./config/services/docker.nix
-    # ./config/services/redshift.nix
+    ./config/services/redshift.nix
 
     ./config/system/pili-support.nix
 
@@ -44,4 +45,12 @@
 
   # Set the hostname
   networking.hostName = "herbert";
+
+  services.xserver.videoDrivers = [ "nvidia" ];
+  hardware.opengl.driSupport32Bit = true;
+
+  system.stateVersion = "18.03";
+  environment.systemPackages = with pkgs; [
+    glxinfo
+  ];
 }

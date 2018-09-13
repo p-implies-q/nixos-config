@@ -45,6 +45,6 @@
     transmission
     vlc
     zathura
-
+    zlib
   ];
 }

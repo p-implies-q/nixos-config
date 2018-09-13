@@ -5,11 +5,13 @@
     cabal2nix
     cabal-install
     (haskellPackages.ghcWithPackages (self: [
-      self.mtl
+      # self.mtl
       self.xmonad
+      self.xmonad-contrib
       self.taffybar
       self.cabal-install
-      self.ghc-mod]))
+      # self.ghc-mod
+      ]))
     # ghc
     nix-prefetch-git
   ];
