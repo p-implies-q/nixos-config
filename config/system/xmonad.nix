@@ -28,9 +28,6 @@
     dunst
     libnotify
     termite
-    taffybar 
-    # (haskellPackages.taffybar.override { packages = (p:
-    #   [packages.taffybar]); })
     haskellPackages.xmobar
     haskellPackages.yeganesh
   ];

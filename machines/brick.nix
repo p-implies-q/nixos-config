@@ -4,16 +4,22 @@
 
 {
   imports = [
-    ./config/medium.nix
-    ./config/system/laptop.nix
+    ../config/medium.nix
+    ../config/system/laptop.nix
 
-    ./config/dev/jekyll.nix
-    ./config/dev/haskell.nix
-    ./config/dev/keyboard.nix
-    ./config/dev/purescript.nix
+    ../config/services/redshift.nix
+    ../config/services/docker.nix
+    
+    ../config/apps/snes.nix
+    ../config/apps/office.nix
+    # ../config/dev/jekyll.nix
+    # ../config/dev/haskell.nix
+    ../config/dev/keyboard.nix
+    ../config/dev/python.nix
+    # ../config/dev/purescript.nix
 
-    ./config/apps/factorio.nix
-    ./config/apps/steam.nix
+    # ../config/apps/factorio.nix
+    # ../config/apps/steam.nix
   ];
 
   # Select the Linux version
