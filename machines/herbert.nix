@@ -4,21 +4,21 @@
 
 {
   imports = [
-    ./config/medium.nix
+    ../config/medium.nix
 
-    ./config/apps/steam.nix
-    ./config/apps/ksp.nix
+    ../config/apps/steam.nix
+    ../config/apps/ksp.nix
 
-    ./config/dev/haskell.nix
-    ./config/dev/keyboard.nix
-    ./config/dev/python.nix
+    ../config/dev/haskell.nix
+    ../config/dev/keyboard.nix
+    ../config/dev/python.nix
 
-    ./config/services/syncthing.nix
-    ./config/services/offlineimap.nix
-    ./config/services/docker.nix
-    ./config/services/redshift.nix
+    ../config/services/syncthing.nix
+    ../config/services/offlineimap.nix
+    ../config/services/docker.nix
+    ../config/services/redshift.nix
 
-    ./config/system/pili-support.nix
+    ../config/system/pili-support.nix
 
 
   ];
