@@ -10,19 +10,19 @@
 
     ../config/services/docker.nix
     ../config/services/redshift.nix
-    ../config/services/syncthing.nix  
+    ../config/services/syncthing.nix
     ../config/services/virtualbox.nix
 
     ../config/apps/office.nix
-    ../config/apps/snes.nix
 
     ../config/dev/keyboard.nix
     ../config/dev/python.nix
+    ../config/dev/haskell.nix
   ];
 
   # Select the Linux version
   boot.kernelPackages = pkgs.linuxPackages;
-  
+
   system.stateVersion = "18.03";
 
   # Set the hostname

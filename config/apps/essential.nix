@@ -20,6 +20,8 @@
     transmission = {
       enable = true;
       settings = {
+        download-dir = "/home/torrents";
+        incomplete-dir = "/home/torrents/.incomplete";
         umask = 2; # Gives users in group 'transmission' access
         incomplete-dir-enabled = true;
         rpc-whitelist = "127.0.0.1,192.169.*.*";
